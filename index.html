@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>İndiriliyor...</title>
+</head>
+<body>
+
+<script>
+    window.onload = function() {
+        const link = document.createElement("a");
+        link.href = "LifeDiff2D.exe";
+        link.download = "LifeDiff2D.exe";
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+    };
+</script>
+
+<p>İndiriliyor... Eğer başlamazsa sayfayı yenile.</p>
+
+</body>
+</html>
